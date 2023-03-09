@@ -5,85 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS-Template-Design</title>
+    <link rel="stylesheet" href="/src/CSS/style1.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!--Header section-->
-      <h1>Site name</h1>
+      <h1 class="header__content">Site name</h1>
     </header>
-    <nav>
+    <nav class="nav">
       <!--Navigation section-->
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Contact us</li>
+      <ul class="nav__links">
+        <li><a href="#">Home</a></li>Aside
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact us</a></li>
       </ul>
     </nav>
-    <section>
-      <!--Content-->
-      <h1>Page Heading</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-        perspiciatis, quaerat numquam quo nesciunt praesentium reiciendis magni,
-        cumque nostrum voluptatum deserunt officiis minima eos sunt tenetur
-        veniam harum accusantium fugit. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Corrupti perspiciatis, quaerat numquam quo nesciunt
-        praesentium reiciendis magni, cumque nostrum voluptatum deserunt
-        officiis minima eos sunt tenetur veniam harum accusantium fugit. Lorem,
-        ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-        perspiciatis, quaerat numquam quo nesciunt praesentium reiciendis magni,
-        cumque nostrum voluptatum deserunt officiis minima eos sunt tenetur
-        veniam harum accusantium fugit. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Corrupti perspiciatis, quaerat numquam quo nesciunt
-        praesentium reiciendis magni, cumque nostrum voluptatum deserunt
-        officiis minima eos sunt tenetur veniam harum accusantium fugit.
-      </p>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-        perspiciatis, quaerat numquam quo nesciunt praesentium reiciendis magni,
-        cumque nostrum voluptatum deserunt officiis minima eos sunt tenetur
-        veniam harum accusantium fugit. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Corrupti perspiciatis, quaerat numquam quo nesciunt
-        praesentium reiciendis magni, cumque nostrum voluptatum deserunt
-        officiis minima eos sunt tenetur veniam harum accusantium fugit. Lorem,
-        ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-        perspiciatis, quaerat numquam quo nesciunt praesentium reiciendis magni,
-        cumque nostrum voluptatum deserunt officiis minima eos sunt tenetur
-        veniam harum accusantium fugit. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Corrupti perspiciatis, quaerat numquam quo nesciunt
-        praesentium reiciendis magni, cumque nostrum voluptatum deserunt
-        officiis minima eos sunt tenetur veniam harum accusantium fugit.
-      </p>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-        perspiciatis, quaerat numquam quo nesciunt praesentium reiciendis magni,
-        cumque nostrum voluptatum deserunt officiis minima eos sunt tenetur
-        veniam harum accusantium fugit. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Corrupti perspiciatis, quaerat numquam quo nesciunt
-        praesentium reiciendis magni, cumque nostrum voluptatum deserunt
-        officiis minima eos sunt tenetur veniam harum accusantium fugit. Lorem,
-        ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-        perspiciatis, quaerat numquam quo nesciunt praesentium reiciendis magni,
-        cumque nostrum voluptatum deserunt officiis minima eos sunt tenetur
-        veniam harum accusantium fugit. Lorem, ipsum dolor sit amet consectetur
-        adipisicing elit. Corrupti perspiciatis, quaerat numquam quo nesciunt
-        praesentium reiciendis magni, cumque nostrum voluptatum deserunt
-        officiis minima eos sunt tenetur veniam harum accusantium fugit.
-      </p>
-    </section>
-    <aside>
-      <!--aside section-->
-      <h2>Aside Heading</h2>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla tenetur
-        illum ab dicta. Culpa veritatis ipsum, aliquid dolores maxime rerum
-        quasi praesentium, maiores exercitationem laboriosam, sunt ad sed ullam
-        tempora!
-      </p>
-    </aside>
-    <footer>
-      <!--aside section-->
+    <div class="container">
+      <section class="content__container">
+        <!--Content-->
+        <h1 class="content__heading">Page Heading</h1>
+        <p class="content__paragraph">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          perspiciatis, quaerat numquam quo nesciunt praesentium reiciendis
+          magni, cumque nostrum voluptatum deserunt officiis minima eos sunt
+          tenetur veniam harum accusantium fugit. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Corrupti perspiciatis, quaerat numquam
+          quo nesciunt praesentium reiciendis magni, cumque nostrum voluptatum
+          deserunt officiis minima eos sunt tenetur veniam harum accusantium
+          fugit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Corrupti perspiciatis, quaerat numquam quo nesciunt praesentium
+          reiciendis magni, cumque nostrum voluptatum deserunt officiis minima
+          eos sunt tenetur veniam harum accusantium fugit. Lorem, ipsum dolor
+          sit amet consectetur adipisicing elit. Corrupti perspiciatis, quaerat
+          numquam quo nesciunt praesentium reiciendis magni, cumque nostrum
+          voluptatum deserunt officiis minima eos sunt tenetur veniam harum
+          accusantium fugit.
+        </p>
+        <p class="content__paragraph">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          perspiciatis, quaerat numquam quo nesciunt praesentium reiciendis
+          magni, cumque nostrum voluptatum deserunt officiis minima eos sunt
+          tenetur veniam harum accusantium fugit. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Corrupti perspiciatis, quaerat numquam
+          quo nesciunt praesentium reiciendis magni, cumque nostrum voluptatum
+          deserunt officiis minima eos sunt tenetur veniam harum accusantium
+          fugit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Corrupti perspiciatis, quaerat numquam quo nesciunt praesentium
+          reiciendis magni, cumque nostrum voluptatum deserunt officiis minima
+          eos sunt tenetur veniam harum accusantium fugit. Lorem, ipsum dolor
+          sit amet consectetur adipisicing elit. Corrupti perspiciatis, quaerat
+          numquam quo nesciunt praesentium reiciendis magni, cumque nostrum
+          voluptatum deserunt officiis minima eos sunt tenetur veniam harum
+          accusantium fugit.
+        </p class="content__paragraph">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          perspiciatis, quaerat numquam quo nesciunt praesentium reiciendis
+          magni, cumque nostrum voluptatum deserunt officiis minima eos sunt
+          tenetur veniam harum accusantium fugit. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Corrupti perspiciatis, quaerat numquam
+          quo nesciunt praesentium reiciendis magni, cumque nostrum voluptatum
+          deserunt officiis minima eos sunt tenetur veniam harum accusantium
+          fugit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Corrupti perspiciatis, quaerat numquam quo nesciunt praesentium
+          reiciendis magni, cumque nostrum voluptatum deserunt officiis minima
+          eos sunt tenetur veniam harum accusantium fugit. Lorem, ipsum dolor
+          sit amet consectetur adipisicing elit. Corrupti perspiciatis, quaerat
+          numquam quo nesciunt praesentium reiciendis magni, cumque nostrum
+          voluptatum deserunt officiis minima eos sunt tenetur veniam harum
+          accusantium fugit.
+        </p>
+      </section>
+      <aside class="section__aside">
+        <!--aside section-->
+        <h2 class="aside__heading">Aside Heading</h2>
+        <p class="aside__paragraph">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
+          tenetur illum ab dicta. Culpa veritatis ipsum, aliquid dolores maxime
+          rerum quasi praesentium, maiores exercitationem laboriosam, sunt ad
+          sed ullam tempora!
+        </p>
+      </aside>
+    </div>
+
+    <footer class="footer__content">
+      <!--footer section-->
       Copyright © Site name, 20XX
     </footer>
   </body>
