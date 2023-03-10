@@ -44,11 +44,11 @@ li a:hover {
     width: 75%;
 }
 
-.content__heading {
+.container__heading {
     color: hsl(202deg 100% 19%);
 }
-
-.content__paragraph {
+opyright
+.container__paragraph {
     padding: 0px 25px 15px 0px;
     margin-top: -20px;
 }
@@ -56,11 +56,11 @@ li a:hover {
 /*aside_Content*/
 .section__aside {
     width: 25%;
-    background-color: #cccccc;
+    background-color: #c2c2c2;
 }
 
 .aside__heading {
-    color: hsl(202deg 100% 19%);
+    color: hsl(201, 70%, 26%);
     padding-left: 20px;
 }
 
@@ -73,7 +73,7 @@ li a:hover {
 /*footer_content*/
 .footer__content {
     max-width: 100%;
-    background-color: hsl(0deg 0% 80%);
+    background-color: hsl(0, 1%, 84%);
     text-align: right;
     padding: 20px 20px 20px 0px;
 }
